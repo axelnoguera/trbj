@@ -148,3 +148,14 @@ height:2.5rem;
 width:2.5rem;
 }
 
+@media screen and (max-width:650px){
+    header .logo{
+    height:4rem;
+    width:4rem;
+    }
+
+    .contenedor-img img{
+    height:15rem;
+    width:20rem;
+    }
+}
