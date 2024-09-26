@@ -19,8 +19,8 @@ font-size:20px;
 }
 
 header .logo{
-height:9rem;
-width:9rem;
+height:10rem;
+width:10rem;
 margin:var(--espacio);
 align-self:center;
 }
@@ -44,6 +44,7 @@ justify-self: end;
 
 .section1{
 min-height:100vh;
+width:100vw;
 background:url(img/fondo.jpeg);
 background-repeat:no-repeat;
 background-position:center center;
@@ -97,6 +98,7 @@ margin:.3rem;
 .section2{
 min-height:1rem;
 width:100vw;
+width:100vw;
 background:url(img/img1.png);
 display:grid;
 place-content:center;
@@ -114,11 +116,14 @@ text-align:center;
 
 .section3{
 min-height:1rem;
+width:100vw;
 background:#ededed;
 display:flex;
 justify-content:center;
 flex-wrap: wrap;
 padding:var(--espacio);
+
+box-sizing: border-box;
 }
 
 .section3 article{
@@ -183,10 +188,13 @@ place-content: center;
 
 .section4{
 min-height:10rem;
+width:100vw;
 display:grid;
 place-content:center;
 padding:3rem;
 background:#e9e9e9;
+
+box-sizing: border-box;
 }
 
 .section4 form{
@@ -239,10 +247,13 @@ background:#D8BE77;
 }
 
 .section5{
+width:100vw;
 display:grid;
 grid-template-columns:50% 50%;
 background:#ededed;
 padding:2rem;
+
+box-sizing: border-box;
 }
 
 .section5 img{
@@ -292,15 +303,6 @@ width:2.5rem;
 
 
 @media screen and (max-width:800px){
-
-    header{
-        min-height:5rem;
-        }
-        
-        .logo{
-        height:5rem;
-        width:5rem;
-        }
         
         header nav a{
         font-size:.9rem;
@@ -322,35 +324,52 @@ width:2.5rem;
         font-size:.9rem;
         }
     
-    .section4 form{
-    height:15rem;
-    width:30rem;
-    }
+        .section4 form{
+        height:15rem;
+        width:30rem;
+        }
 
-    .section5{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    }
+        .section5{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        }
 
-    .section5 img{
-    margin:1rem;
-    }
+       .section5 img{
+        margin:1rem;
+        }
 }
+
+
 
 @media screen and (max-width:950px){
-    .section5 img{
+        .section5 img{
         height:11rem;
         width:18rem;
-    }
+        }
 
-    .section5 ul, li{
-    font-size:1rem;
-    }
+        .section5 ul, li{
+        font-size:1rem;
+        }
 }
 
+
+
 @media screen and (max-width:550px){
-    .sub-section1 h1{
+        :root{
+        --espacio:.7rem;
+        }
+
+        header{
+        min-height:5rem;
+        }
+                
+        header .logo{
+        height:5rem;
+        width:5rem;
+        }
+
+       .sub-section1 h1{
         font-size:1.5rem;
         margin:.1rem;
         }
@@ -366,7 +385,11 @@ width:2.5rem;
         font-size:.8rem;
         }
 
-    .section4 form{
-    width:20rem;
-    }
+        .section2 p{
+        font-size:.9rem;
+        }
+
+        .section4 form{
+        width:20rem;
+        }
 }
