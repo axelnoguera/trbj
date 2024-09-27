@@ -140,4 +140,14 @@ width:2.5rem;
     height:10rem;
     width:22rem;
     }
+
+    footer a{
+    height:3rem;
+    width:3rem;
+    }
+
+    footer a img{
+    height:1.5rem;
+    width:1.5rem;
+    }
 }
