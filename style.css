@@ -71,7 +71,7 @@ margin:.3rem;
 }
 
 .sub-section1 p{
-    font-weight:600;
+    font-weight:300;
     font-family:sans-serif;
     width:80vw;
     color: #fff;
@@ -233,7 +233,7 @@ outline:none;
 }
 
 input[type="submit"]{
-width:50%;
+width:45%;
 align-self:end;
 justify-self:start;
 margin-left:5%;
@@ -279,7 +279,7 @@ width:100vw;
 background:#d1d1d1;
 display:grid;
 place-content:center;
-grid-template-columns:auto auto auto;
+grid-template-columns:auto auto auto auto;
 gap:2rem;
 padding:2rem;
 box-sizing: border-box;
@@ -333,6 +333,10 @@ width:2.5rem;
         display:flex;
         flex-direction:column;
         align-items:center;
+        }
+
+        .section5 ul{
+        
         }
 
        .section5 img{
@@ -390,6 +394,34 @@ width:2.5rem;
         }
 
         .section4 form{
+        height:13rem;
         width:20rem;
+        }
+
+        .section4 form b{
+        font-size:1.4rem;
+        align-self: center;
+        }
+
+        .section4 form label{
+        font-size:1.2rem;
+        }
+
+        .section4 input{
+        height:1.5rem;
+        }
+
+        .section4 input[type="submit"]{
+        align-self: center;
+        }
+
+        footer a{
+        height:3rem;
+        width:3rem;
+        }
+
+        footer a img{
+        height:1.5rem;
+        width:1.5rem;
         }
 }
