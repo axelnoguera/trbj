@@ -1,3 +1,7 @@
+let imgPrincipal = document.querySelector(".img-principal");
+let botonCierre = document.querySelector(".boton-cierre");
+let imgGrande = document.querySelector(".img-grande");
+let contenedorImgGrande = document.querySelector(".contenedor-img-grande");
 let imgs = document.querySelectorAll(".img-mini");
 let imgUno = document.querySelector("#imgUno");
 let imgDos = document.querySelector("#imgDos");
@@ -23,3 +27,11 @@ imgs.forEach(imgs => {
     });
 });
 
+imgPrincipal.addEventListener("click", ()=>{
+    contenedorImgGrande.style.display = "grid";
+    imgGrande.src = imgUno.src;
+});
+
+botonCierre.addEventListener("click", ()=>{
+    contenedorImgGrande.style.display = "none";
+});
