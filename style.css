@@ -43,7 +43,7 @@ justify-self: end;
 }
 
 .section1{
-min-height:100vh;
+height:80vh;
 width:100vw;
 background:url(img/fondo.jpeg);
 background-repeat:no-repeat;
@@ -199,7 +199,7 @@ box-sizing: border-box;
 
 .section4 form{
 height:25rem;
-width:40rem;
+width:44rem;
 background:#fff;
 display:grid;
 align-content:center;
@@ -335,10 +335,6 @@ width:2.5rem;
         align-items:center;
         }
 
-        .section5 ul{
-        
-        }
-
        .section5 img{
         margin:1rem;
         }
@@ -369,8 +365,8 @@ width:2.5rem;
         }
                 
         header .logo{
-        height:5rem;
-        width:5rem;
+        height:9rem;
+        width:9rem;
         }
 
        .sub-section1 h1{
