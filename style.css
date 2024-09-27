@@ -43,7 +43,7 @@ justify-self: end;
 }
 
 .section1{
-min-height:80vh;
+min-height:100vh;
 width:100vw;
 background:url(img/fondo.jpeg);
 background-repeat:no-repeat;
