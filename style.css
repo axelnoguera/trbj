@@ -281,7 +281,7 @@ background:#d1d1d1;
 display:grid;
 place-content:center;
 grid-template-columns:auto auto auto auto;
-gap:2rem;
+gap: 2rem;
 padding:2rem;
 box-sizing: border-box;
 }

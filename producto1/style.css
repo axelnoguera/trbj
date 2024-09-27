@@ -113,6 +113,7 @@ place-content:center;
 grid-template-columns:auto auto auto auto auto;
 gap:2rem;
 padding:2rem 0 2rem 0;
+box-sizing: border-box;
 }
     
 footer a{
