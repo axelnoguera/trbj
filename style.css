@@ -8,7 +8,7 @@ margin:0;
 }
 
 header{
-height:10rem;
+min-height:1rem;
 width:100vw;
 display:flex;
 justify-content:space-between;
@@ -360,14 +360,10 @@ width:2.5rem;
         :root{
         --espacio:.7rem;
         }
-
-        header{
-        min-height:5rem;
-        }
                 
         header .logo{
-        height:9rem;
-        width:9rem;
+        height:6rem;
+        width:6rem;
         }
 
        .sub-section1 h1{
