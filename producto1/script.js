@@ -6,14 +6,16 @@ let imgs = document.querySelectorAll(".img-mini");
 let imgUno = document.querySelector("#imgUno");
 let imgDos = document.querySelector("#imgDos");
 let imgTres = document.querySelector("#imgTres");
+let imgCuatro = document.querySelector("#imgCuatro");
+let imgCinco = document.querySelector("#imgCinco");
 
 
-let contenedores = [imgUno,imgDos,imgTres];
-let src = ["../img/imgTela.png","../img/imgTela2.jpeg","../img/imgTela3.jpeg"];
+let contenedores = [imgUno,imgDos,imgTres,imgCuatro,imgCinco];
+let src = ["../img/imgTela1.jpeg","../img/imgTela2.jpeg","../img/imgTela3.png","../img/imgTela4.png","../img/imgTela5.png"];
 
 
 
-for(let i = 0;i < 3;i++){
+for(let i = 0;i < 5;i++){
   contenedores[i].src = src[i];
 };
 

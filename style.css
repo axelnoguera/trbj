@@ -122,9 +122,14 @@ display:flex;
 justify-content:center;
 flex-wrap: wrap;
 padding:var(--espacio);
-
 box-sizing: border-box;
 }
+
+
+strong{
+font-weight:lighter;
+}
+
 
 .section3 article{
 height:20rem;
