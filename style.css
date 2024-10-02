@@ -95,6 +95,8 @@ border:.1rem solid #fff;
 margin:.3rem;
 }
 
+
+
 .section2{
 min-height:1rem;
 width:100vw;
@@ -123,6 +125,12 @@ justify-content:center;
 flex-wrap: wrap;
 padding:var(--espacio);
 box-sizing: border-box;
+}
+
+.section3 h3{
+font-family: sans-serif;
+flex-basis:100vw;
+text-align:center;
 }
 
 
