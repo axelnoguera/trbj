@@ -120,24 +120,24 @@ font-family:sans-serif;
 }
 
 .contenedorDos ul{
-    margin-left:2rem;
+margin-left:2rem;
 }
 
 .contenedorDos a{
 height:2.5rem;
 width:15rem;
+margin-left:.5rem;
 border:none;
 background:#dedede;
 font-family:sans-serif;
 font-weight: 600;
 font-size:1rem;
 cursor:pointer;
-
 display:grid;
 place-content:center;
 color: #000;
 text-decoration:none;
-}
+    }
 
 footer{
 width:100vw;
