@@ -57,6 +57,10 @@ padding-bottom:.3rem;
 padding-left:var(--espacio);
 }
 
+strong{
+font-weight:normal;
+}
+
 .sub-section1 h1{
 font-size:3rem;
 font-family:"Pathway Gothic One", sans-serif;
@@ -356,6 +360,10 @@ width:2.5rem;
         }
 
         .section5 ul, li{
+        font-size:1rem;
+        }
+
+        .section3 h3{
         font-size:1rem;
         }
 }
