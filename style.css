@@ -285,8 +285,8 @@ margin:0 1rem 0 .5rem;
 }
 
 .sub-section5 .lista div img{
-height:1.5rem;
-width:1.5rem;
+height:2rem;
+width:2rem;
 }
 
 .sub-section5 .lista div b{
@@ -436,8 +436,8 @@ width:2.5rem;
 
 @media screen and (max-width:730px){
         .section5 .sub-section5 .lista div img{
-            height:1.5rem;
-            width:1.5rem;
+            height:1.2rem;
+            width:1.2rem;
         }
     
         .section5 .sub-section5 .lista div b{
