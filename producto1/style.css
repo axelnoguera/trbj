@@ -38,7 +38,7 @@ background:#ededed;
 }
 
 header{
-min-height:5rem;
+height:10rem;
 width:100vw;
 background:rgba(0,0,0,40%);
 display:flex;
@@ -47,8 +47,8 @@ background:rgba(0,0,0,50%);
 }
 
 header .logo{
-height:9rem;
-width:9rem;
+height:10rem;
+width:10rem;
 }
 
 .contenedorUno{
@@ -173,6 +173,10 @@ width:2.5rem;
 
 
 @media screen and (max-width:650px){
+    header{
+    height:6rem;
+    }
+
     header .logo{
     height:6rem;
     width:6rem;
