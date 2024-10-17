@@ -115,7 +115,7 @@ text-align:center;
 .section3{
 min-height:1rem;
 width:100vw;
-background:#ededed;
+background:#e6e6e6;
 display:flex;
 justify-content:center;
 flex-wrap: wrap;
@@ -250,7 +250,7 @@ background:#D8BE77;
 
 .section5{
 width:100vw;
-background:#ededed;
+background:#e6e6e6;
 padding:3rem 0 3rem 0;
 display:grid;
 place-content:center;
@@ -273,14 +273,16 @@ margin:var(--espacio) 0 0 var(--espacio);
 .sub-section5 .lista{
 display:flex;
 flex-direction:row;
+justify-content:center;
 margin:2rem 0 2rem 0;
 padding-left:var(--espacio);
+flex-basis:100vw;
 }
 
 .sub-section5 .lista div{
 display: flex;
 align-content: center;
-margin:0 .5rem 0 .5rem;
+margin:0 1rem 0 .5rem;
 }
 
 .sub-section5 .lista div img{
@@ -292,6 +294,7 @@ width:2rem;
 font-size:1rem;
 font-family:sans-serif;
 margin-left:.5rem;
+align-content:center;
 }
 
 .sub-section5 img{
@@ -329,7 +332,7 @@ border:.1rem solid #000;
 footer{
 min-height:1rem;
 width:100vw;
-background:#bbbbbb;
+background:#d1d1d1;
 display:flex;
 flex-direction:row;
 justify-content:center;
@@ -351,6 +354,42 @@ cursor:pointer;
 footer img{
 height:2.5rem;
 width:2.5rem;
+}
+
+@media screen and (max-width:950px){
+        .section img{
+        height:15rem;
+        width:15rem;
+        }
+
+        .section ul, li{
+        font-size:1rem;
+        }
+
+        .section5 img{
+        height:11rem;
+        width:18rem;
+        }
+
+        .contenedor-porque-elegirnos{
+        width:18rem;
+        align-self: center;
+        }
+
+        .contenedor-porque-elegirnos p{
+        font-size:1rem;
+        }
+
+        .contenedor-porque-elegirnos a{
+        height:1.5rem;
+        width:10rem;
+        font-size:.9rem;
+        font-family:sans-serif;
+        }
+
+        .section3 h3{
+        font-size:1rem;
+        }
 }
 
 
@@ -394,45 +433,24 @@ width:2.5rem;
 }
 
 
-@media screen and (max-width:950px){
-        .section img{
-        height:15rem;
-        width:15rem;
+
+
+@media screen and (max-width:730px){
+        .section5 .sub-section5 .lista div img{
+            height:1.5rem;
+            width:1.5rem;
         }
-
-        .section ul, li{
-        font-size:1rem;
+    
+        .section5 .sub-section5 .lista div b{
+        font-size:.7rem;
         }
-
-        .section5 img{
-        height:11rem;
-        width:18rem;
-        }
-
-        .contenedor-porque-elegirnos{
-        width:18rem;
-        align-self: center;
-        }
-
-        .contenedor-porque-elegirnos p{
-        font-size:1rem;
-        }
-
-        .contenedor-porque-elegirnos a{
-        height:1.5rem;
-        width:10rem;
-        font-size:.9rem;
-        font-family:sans-serif;
-        }
-
-        .section3 h3{
-        font-size:1rem;
-        }
-}
+    }
 
 
 
-@media screen and (max-width:550px){
+
+
+    @media screen and (max-width:550px){
         :root{
         --espacio:.7rem;
         }
@@ -443,7 +461,7 @@ width:2.5rem;
         }
 
        .sub-section1 h1{
-        font-size:1.5rem;
+        font-size:1.6rem;
         margin:.1rem;
         }
         
@@ -489,14 +507,3 @@ width:2.5rem;
         width:1.5rem;
         }
 }
-
-@media screen and (max-width:730px){
-        .section5 .sub-section5 .lista div img{
-            height:1.5rem;
-            width:1.5rem;
-        }
-    
-        .section5 .sub-section5 .lista div b{
-        font-size:.8rem;
-        }
-    }
