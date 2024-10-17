@@ -276,7 +276,6 @@ flex-direction:row;
 justify-content:center;
 margin:2rem 0 2rem 0;
 padding-left:var(--espacio);
-flex-basis:100vw;
 }
 
 .sub-section5 .lista div{
@@ -286,8 +285,8 @@ margin:0 1rem 0 .5rem;
 }
 
 .sub-section5 .lista div img{
-height:2rem;
-width:2rem;
+height:1.5rem;
+width:1.5rem;
 }
 
 .sub-section5 .lista div b{
