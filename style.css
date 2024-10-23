@@ -445,7 +445,7 @@ width:2.5rem;
 
 
 
-@media screen and (max-width:730px){
+@media screen and (max-width:750px){
         .section1{
         height:70vh;
         }
@@ -473,7 +473,7 @@ width:2.5rem;
 
         .section4 form{
         height:19rem;
-        width:34rem;
+        width:35rem;
         }
 
         .section5 .sub-section5 .lista div img{
