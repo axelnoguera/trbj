@@ -37,6 +37,7 @@ text-decoration:none;
 color: #fff;
 font-family:sans-serif;
 margin:.5rem;
+
 }
 
 .section1{
@@ -123,7 +124,7 @@ justify-content:center;
 flex-wrap: wrap;
 padding:var(--espacio);
 box-sizing: border-box;
-padding:5rem 0 5rem 0;
+padding:3rem 0 3rem 0;
 }     
 
 .section3 h3{
@@ -150,6 +151,7 @@ height:10rem;
 width:15rem;
 justify-self: start;
 margin:0 0 .7rem .5rem;
+background:#fff;
 }
 
 .section3 article .caja-img img{
@@ -193,7 +195,7 @@ place-content:center;
 padding:3rem;
 background:#e6e6e6;
 box-sizing: border-box;
-padding:5rem 0 5rem 0;
+padding:3rem 0 3rem 0;
 }
 
 .section4 form{
@@ -537,8 +539,8 @@ width:2.5rem;
         }
 
         .section4 form{
-        height:13rem;
-        width:20rem;
+        height:15rem;
+        width:25rem;
         }
 
         .section4 form b{

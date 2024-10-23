@@ -5,14 +5,15 @@ let contenedorImgGrande = document.querySelector(".contenedor-img-grande");
 let imgs = document.querySelectorAll(".img-mini");
 let imgUno = document.querySelector("#imgUno");
 let imgDos = document.querySelector("#imgDos");
+let imgTres = document.querySelector("#imgTres");
 
 
-let contenedores = [imgUno,imgDos];
-let src = ["../img/imgCarton1.jpeg","../img/imgCarton2.jpeg"];
+let contenedores = [imgUno,imgDos,imgTres];
+let src = ["../img/imgCarton1.jpeg","../img/imgCarton2.jpeg","../img/imgCarton.png"];
 
 
 
-for(let i = 0;i < 2;i++){
+for(let i = 0;i < 3;i++){
   contenedores[i].src = src[i];
 };
 

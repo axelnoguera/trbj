@@ -37,6 +37,17 @@ font-size:20px;
 background:#ededed;
 }
 
+
+html,body{
+  height:100%;
+}
+
+main{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 header{
 height:10rem;
 width:100vw;
@@ -78,7 +89,7 @@ grid-template-columns:repeat(auto-fill,4rem);
 align-content:center;
 gap:.8rem;
 background:#e6e6e6;
-padding:.5rem 0 .5rem .5rem;
+padding:.5rem 0 .5rem 1rem;
 box-sizing:border-box;
 }
 
@@ -97,10 +108,16 @@ object-fit: scale-down;
 
 .contenedorDos{
 width:100vw;
-display:grid;
-place-content:center;
 background:#ededed;
 padding-bottom:1rem;
+flex:1;
+}
+
+.contenedorDos h3{
+font-family:sans-serif;
+margin-top:1rem;
+margin-left:1rem;
+margin-bottom:.3rem;
 }
 
 strong{
@@ -110,27 +127,30 @@ font-weight:normal;
 .contenedorDos p{
 width:90vw;
 font-family:sans-serif;
-margin:.5rem;
+margin-left:2rem;
+margin-bottom:2rem;
 }
 
 .contenedorDos b{
 width:90vw;
 font-family:sans-serif;
-margin:.5rem;
+margin-top:1rem;
+margin-left:2rem;
+}
+
+.contenedorDos ul{
+margin-left:4rem;
+margin-bottom:1rem;
 }
 
 .contenedorDos li{
 font-family:sans-serif;
 }
 
-.contenedorDos ul{
-margin-left:2rem;
-}
-
 .contenedorDos a{
 height:2.5rem;
 width:15rem;
-margin-left:.5rem;
+margin-left:2rem;
 border:none;
 background:#dedede;
 font-family:sans-serif;
@@ -152,6 +172,8 @@ justify-content:center;
 gap:2rem;
 padding:2rem 0 2rem 0;
 box-sizing: border-box;
+position: relative;
+bottom: 0;
 }
     
 footer a{

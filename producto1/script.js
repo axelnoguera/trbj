@@ -8,14 +8,17 @@ let imgDos = document.querySelector("#imgDos");
 let imgTres = document.querySelector("#imgTres");
 let imgCuatro = document.querySelector("#imgCuatro");
 let imgCinco = document.querySelector("#imgCinco");
+let imgSeis = document.querySelector("#imgSeis");
+let imgSiete = document.querySelector("#imgSiete");
+let imgOcho = document.querySelector("#imgOcho");
 
 
-let contenedores = [imgUno,imgDos,imgTres,imgCuatro,imgCinco];
-let src = ["../img/imgTela1.jpeg","../img/imgTela2.jpeg","../img/imgTela3.png","../img/imgTela4.png","../img/imgTela5.png"];
+let contenedores = [imgUno,imgDos,imgTres,imgCuatro,imgCinco,imgSeis,imgSiete,imgOcho];
+let src = ["../img/imgTela1.jpeg","../img/imgTela2.jpeg","../img/imgTela3.png","../img/imgTela4.png","../img/imgTela5.png","../img/imgTela6.png","../img/imgTela7.png","../img/tela.png"];
 
 
 
-for(let i = 0;i < 5;i++){
+for(let i = 0;i < 8;i++){
   contenedores[i].src = src[i];
 };
 

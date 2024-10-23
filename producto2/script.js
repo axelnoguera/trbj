@@ -9,14 +9,15 @@ let imgDos = document.querySelector("#imgDos");
 let imgTres = document.querySelector("#imgTres");
 let imgCuatro = document.querySelector("#imgCuatro");
 let imgCinco = document.querySelector("#imgCinco");
+let imgSeis = document.querySelector("#imgSeis");
 
 
-let contenedores = [imgUno,imgDos,imgTres,imgCuatro,imgCinco];
-let src = ["../img/imgMadera1.png","../img/imgMadera2.jpeg","../img/imgMadera3.jpeg","../img/imgMadera4.jpg","../img/imgMadera5.jpeg"];
+let contenedores = [imgUno,imgDos,imgTres,imgCuatro,imgCinco,imgSeis];
+let src = ["../img/imgMadera1.png","../img/imgMadera2.jpeg","../img/imgMadera3.jpeg","../img/imgMadera4.jpg","../img/imgMadera5.jpeg","../img/imgMadera6.png"];
 
 
 
-for(let i = 0;i < 5;i++){
+for(let i = 0;i < 6;i++){
   contenedores[i].src = src[i];
 };
 
