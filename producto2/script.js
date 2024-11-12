@@ -13,7 +13,7 @@ let imgSeis = document.querySelector("#imgSeis");
 
 
 let contenedores = [imgUno,imgDos,imgTres,imgCuatro,imgCinco,imgSeis];
-let src = ["../img/imgMadera1.png","../img/imgMadera2.jpeg","../img/imgMadera3.jpeg","../img/imgMadera4.jpg","../img/imgMadera5.jpeg","../img/imgMadera6.png"];
+let src = ["../img/imgMadera1.jpg","../img/imgMadera2.jpeg","../img/imgMadera3.jpeg","../img/imgMadera4.png","../img/imgMadera5.jpeg","../img/imgMadera6.png"];
 
 
 
