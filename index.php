@@ -17,7 +17,7 @@
         <section class="section1">
             <header>
                 <img src="img/logo.png" alt="logo del sitio" class="logo">
-                <nav><a href="#info-inrom" tabindex="1">¿Quiénes somos?</a></nav>
+                <nav><a href="info/info.html" tabindex="1">¿Quiénes somos?</a></nav>
             </header>
 
             <section class="sub-section1">
@@ -42,13 +42,13 @@
         
 
         <section class="section3">
-            <h3 tabindex="6">nuestros productos</h3>
+            <h3 tabindex="6"></h3>
             
             <article>
                 <div class="caja-img">
                     <img src="img/tela.png" alt="imagen producto hechos de tela no tejida">
                 </div>
-                    <b tabindex="7">empaques y productos de tela no tejida</b>
+                    <b tabindex="7">Empaques y productos de tela no tejida</b>
                     <p tabindex="8">Productos de tela no tejida para la industria automotriz y área médica,
                     como <strong>batas</strong> médicas, <strong>cubrebocas</strong> y <strong>fundas para partes automotrices</strong>.</p>
                 
@@ -59,7 +59,7 @@
                 <div class="caja-img">
                     <img src="img/imgMadera.jpeg" alt="imagen tarimas y embalajes de madera" >
                 </div>
-                    <b tabindex="10">tarimas y embalajes de madera</b>
+                    <b tabindex="10">Tarimas y embalajes de madera</b>
                     <p tabindex="11">Tarimas certificadas para exportación de acuerdo a la NOM-144 de la SEMARNAT.
                     INROM utiliza el tratamiento térmico (HT) para sus tarimas.</p>
                     
@@ -71,7 +71,7 @@
                 <div class="caja-img">
                     <img src="img/imgCarton.png"  alt="imagen de embalajes hechos de carton">
                 </div>
-                    <b tabindex="13">cajas y productos de carton</b>
+                    <b tabindex="13">Cajas y productos de cartón</b>
                     <p tabindex="14">Cajas de cartón corrugado o sólida para el correcto embarque y protección
                     frente a golpes y daños superficiales.</p>
                     
@@ -82,49 +82,52 @@
 
 
         <section class="section4">
-            <form tabindex="16" aria-label="contenedor de formulario para dejar tus datos">
+            <form tabindex="16" method="post" aria-label="contenedor de formulario para dejar tus datos">
                 <b>Contáctanos</b>
                 <label for="nombre"><img src="img/usuario.png" alt="icono usuario"></label>
-                <input type="text" id="nombre" tabindex="17" aria-label="campo de texto para ingresar tu nombre" class="nombre" placeholder="nombre...">
+                <input type="text" name="nombre" id="nombre" tabindex="17" aria-label="campo de texto para ingresar tu nombre" class="nombre" placeholder="nombre...">
                 <label for="mail"><img src="img/correoElectronico.png" alt="icono mail"></label>
-                <input type="email" id="mail" tabindex="18" aria-label="campo de texto para ingresar tu mail, recuerde escribir correctamente su mail para poder ser enviado" class="mail" placeholder="mail...">
-                <input type="submit" value="enviar" tabindex="19" aria-label="boton para enviar mail con tus datos" class="boton-form">
+                <input type="email" name="mail" id="mail" tabindex="18" aria-label="campo de texto para ingresar tu mail, recuerde escribir correctamente su mail para poder ser enviado" class="mail" placeholder="mail...">
+                <label for="mensaje"><img src="img/mensaje.png" alt="icono mensaje"></label>
+                <textarea name="mensaje" id="mensaje" placeholder="mensaje..." tabindex="19"></textarea>
+                <input type="submit" name="boton" value="enviar" tabindex="20" aria-label="boton para enviar mail con tus datos" class="boton-form">
             </form>
         </section>
 
 
         <section class="section5">
             <div class="sub-section5">
-                <h4 tabindex="20">¿Por qué elegirnos?</h4>
+                <h4 tabindex="21">¿Por qué elegirnos?</h4>
 
                 <div class="lista">
                     <div>
-                        <img src="img/uno.png" alt="icono numero uno"><b tabindex="21">Más de diez años de experiencia fabricando empaque</b>
+                        <img src="img/uno.png" alt="icono numero uno"><b tabindex="22">Más de diez años de experiencia fabricando empaque</b>
                     </div>
                     <div>
-                        <img src="img/dos.png" alt="icono numero dos"><b tabindex="22">Entregamos en tiempo y forma</b>
+                        <img src="img/dos.png" alt="icono numero dos"><b tabindex="23">Entregamos en tiempo y forma</b>
                     </div>
                     <div>
-                        <img src="img/tres.png" alt="icono numero tres"><b tabindex="23">Precios justos y competitivos</b>
+                        <img src="img/tres.png" alt="icono numero tres"><b tabindex="24">Precios justos y competitivos</b>
                     </div>
                </div>
 
                 <img src="img/img5.jpg" alt="imagen representando el trabajo en equipo en inrom">
 
                 <div class="contenedor-porque-elegirnos">
-                        <p tabindex="24">Asegura el transporte de tus productos con nuestras tarimas de madera y cajas de cartón de alta calidad.
+                        <p tabindex="25">Asegura el transporte de tus productos con nuestras tarimas de madera y cajas de cartón de alta calidad.
                         Embalaje resistente, eficiente y económico para tus necesidades.</p>
-                        <a href="https://wa.link/i7sp8p" rel="nofollow" target="_blank" tabindex="25" aria-label="boton acceso a whatsapp para cotizacion">Solicite una cotización</a>
+                        <a href="https://wa.link/i7sp8p" rel="nofollow" target="_blank" tabindex="26" aria-label="boton acceso a whatsapp para cotizacion">Solicite una cotización</a>
                 </div>
             </div>
         </section>
 
         <footer>
-            <a href="https://maps.app.goo.gl/uHkoLxuqVNNWoLUa6" rel="nofollow" target="_blank" tabindex="26" aria-label="boton de acceso a ubicacion en google maps"><img src="img/logo-ubicacion.png" alt="icono de google maps"></a>
-            <a href="https://wa.link/i7sp8p" rel="nofollow" target="_blank" tabindex="27" aria-label="boton de acceso a whatsapp"><img src="img/whatsapp.png" alt="icono de whatsapp"></a>
-            <a href="https://www.facebook.com/profile.php?id=100092471587437" rel="nofollow" target="_blank" tabindex="28" aria-label="boton de acceso a facebook"><img src="img/logo-facebook.png" alt="icono de facebook"></a>
-            <a href="tel:52 449 275 3170" rel="nofollow" tabindex="29" aria-label="boton de acceso a numero de telefono"><img src="img/telefono.png" alt="icono numero de telefono" tabindex="30" aria-label="final de la pagina"></a>
+            <a href="https://maps.app.goo.gl/uHkoLxuqVNNWoLUa6" rel="nofollow" target="_blank" tabindex="27" aria-label="boton de acceso a ubicacion en google maps"><img src="img/logo-ubicacion.png" alt="icono de google maps"></a>
+            <a href="https://wa.link/i7sp8p" rel="nofollow" target="_blank" tabindex="28" aria-label="boton de acceso a whatsapp"><img src="img/whatsapp.png" alt="icono de whatsapp"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092471587437" rel="nofollow" target="_blank" tabindex="29" aria-label="boton de acceso a facebook"><img src="img/logo-facebook.png" alt="icono de facebook"></a>
+            <a href="tel:449 275 3170" rel="nofollow" tabindex="30" aria-label="boton de acceso a numero de telefono"><img src="img/telefono.png" alt="icono numero de telefono" tabindex="31" aria-label="final de la pagina"></a>
         </footer>
     </main>
+    <?php include("backend.php"); ?>
 </body>
 </html>
